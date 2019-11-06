@@ -1,1 +1,215 @@
-Hello World
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Ryo's Resume</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        <span class="logo"><img src="images/logo.svg" alt=""/></span>
+        <h1>早坂 涼</h1>
+        <h1>Ryo Hayasaka</h1>
+        <p>Software Engineer<br/>
+            This site is my resume.
+        </p>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul>
+            <li><a href="#intro" class="active">Resume</a></li>
+            <li><a href="#first">Skills</a></li>
+            <li><a href="#second">PR</a></li>
+            <li><a href="#cta">Activities</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+        <!-- Introduction -->
+        <section id="intro" class="main">
+            <div class="content">
+                <header class="major">
+                    <h2 class="">職務経歴</h2>
+                </header>
+                <h3>株式会社ビデオマーケット(2017/07 ~ 現職)</h3>
+                <h4>概要</h4>
+                <p>都度課金型、定期購読型のビデオオンデマンドサービスを提供している会社で自社サービスに関わるバックエンドシステムの設計や開発を担当。</p>
+                <h4>プロジェクト</h4>
+                <section>
+                    <div class="table-wrapper">
+                        <table class="alt">
+                            <thead>
+                            <tr>
+                                <th style="width: 20%">名称</th>
+                                <th>内容</th>
+                                <th>技術</th>
+                                <th style="width: 10%">規模</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>iOSアプリリニューアル</td>
+                                <td>iOSアプリvideomarketの大型リニューアルプロジェクトにおけるサーバーサイドのチームリーダーとして技術選定と設計・開発を担当。<br/><br/>
+                                    マイクロサービスアーキテクチャの導入とサーバーサイドKotlinの導入、API GatewayとしてGraphQLサーバーを構築。<br/><br/>
+                                    スケーラブルで耐障害性のあるシステムを作成するため、GAE上にサービスを構築。<br/><br/>
+                                    リーダーとしてはメンバーへの技術フォロー、プルリクエストを通じてリファクタリング案の提案、作業効率化のためのライブラリの選定などを行なっている。
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Kotlin(Server-Side)</li>
+                                        <li>GraphQL</li>
+                                        <li>GoogleAppEngine</li>
+                                        <li>GoogleComputeEngine</li>
+                                        <li>GoogleStackdriver</li>
+                                        <li>CloudSQL(MySQL)</li>
+                                        <li>Elastic AppSearch</li>
+                                    </ul>
+                                </td>
+                                <td>約20名</td>
+                            </tr>
+                            <tr>
+                                <td>アプリ内検索エンジンのデータ投入バッチシステム</td>
+                                <td>iOSアプリ内の作品検索のユーザー体験向上を目的とした検索エンジン(AppSearch)のデータ投入部分を担当。<br/><br/>
+                                    RDBからデータを取り出し、データを非正規化し日次で投入する仕組みを構築。<br/><br/>
+                                    情報設計とバッチ内部における並列処理、リトライなどの設計や実装まで一貫して開発。実装期間は2週間。
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Kotlin(Server-Side)</li>
+                                        <li>GoogleComputeEngine</li>
+                                        <li>GoogleCloudScheduler</li>
+                                        <li>CloudSQL(MySQL)</li>
+                                        <li>Elastic AppSearch</li>
+                                    </ul>
+                                </td>
+                                <td>1名</td>
+                            </tr>
+                            <tr>
+                                <td>Apple UniversalSearchのフィード作成バッチシステム</td>
+                                <td>Appleが提供しているデバイスでSpotlight検索やSiri検索に販売中の作品情報を提供するためのフィード情報を作成するバッチを実装。<br/><br/>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Golang</li>
+                                    </ul>
+                                </td>
+                                <td>1名</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- First Section -->
+        <section id="first" class="main special">
+            <header class="major">
+                <h2>スキル</h2>
+            </header>
+            <ul class="features">
+                <li>
+                    <span class="icon"><img src="images/kotlin.svg" class="image size"/></span>
+                    <h3>Kotlin</h3>
+                    <p>About 1 year</p>
+                </li>
+                <li>
+                    <span class="icon"><img src="images/golang.svg" class="image size"/></span>
+                    <h3>Golang</h3>
+                    <p>About 6 months</p>
+                </li>
+                <li>
+                    <span class="icon"><img src="images/php.svg" class="image size"/></span>
+                    <h3>PHP</h3>
+                    <p>About 2 years</p>
+                </li>
+                <li>
+                    <span class="icon"><img src="images/java.svg" class="image size"/></span>
+                    <h3>Java</h3>
+                    <p>About 3 years</p>
+                </li>
+                <li>
+                    <span class="icon"><img src="images/ruby.svg" class="image size"/></span>
+                    <h3>Ruby</h3>
+                    <p>About 3 months</p>
+                </li>
+                <li>
+                    <span class="icon"><img src="images/graphql.svg" class="image size"/></span>
+                    <h3>GraphQL</h3>
+                    <p>About 1 year</p>
+                </li>
+            </ul>
+            <footer class="major">
+                <ul class="actions special">
+                    <li><a href="generic.html" class="button">Learn More</a></li>
+                </ul>
+            </footer>
+        </section>
+
+        <!-- PR -->
+        <section id="second" class="main special">
+            <header class="major">
+                <h2>自己PR</h2>
+            </header>
+        </section>
+
+        <!-- Activity -->
+        <section id="cta" class="main special">
+            <header class="major">
+                <h2>業務外活動</h2>
+                <p>2019/08/24 KotlinFest 2019にてLT登壇</p>
+                <script async class="speakerdeck-embed"
+                        data-id="8309f22fcc914616a5db8d2e239c33b0" data-ratio="1.33333333333333"
+                        src="//speakerdeck.com/assets/embed.js"></script>
+            </header>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <section>
+            <h2>Contacts</h2>
+            <dl class="alt">
+                <dt>Email</dt>
+                <dd><a href="#">ryohysk@gmail.com</a></dd>
+            </dl>
+            <ul class="icons">
+                <li><a href="https://twitter.com/hayaboytech" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a>
+                </li>
+                <li><a href="https://github.com/ryohysk" class="icon brands fa-github alt"><span
+                        class="label">GitHub</span></a></li>
+            </ul>
+        </section>
+        <p class="copyright">&copy; Ryo Hayasaka. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
