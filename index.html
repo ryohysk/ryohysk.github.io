@@ -289,31 +289,53 @@
                     <p>About 1 year</p>
                 </li>
             </ul>
-            <footer class="major">
-                <ul class="actions special">
-                    <li><a href="generic.html" class="button">Learn More</a></li>
-                </ul>
-            </footer>
+            <!--            <footer class="major">-->
+            <!--                <ul class="actions special">-->
+            <!--                    <li><a href="generic.html" class="button">Learn More</a></li>-->
+            <!--                </ul>-->
+            <!--            </footer>-->
         </section>
 
         <!-- PR -->
-        <section id="pr" class="main special">
-            <header class="major">
+        <section id="pr" class="main">
+            <header class="major special">
                 <h2>自己PR</h2>
             </header>
+            <div class="content">
+                <h3>アーキテクチャの選定</h3>
+                <p>バグが多く障害が頻発していたモノリシックなサービスから、マイクロサービスアーキテクチャへの移行を行なった。<br/>
+                    それぞれのサービスが明確な役割とドメインを持つようになり、GCPなどのマイクロサービスのためにデザインされているプラットフォームを使用することでそれぞれの負荷に合わせたスケールが可能になった。</p>
+                <h3>新言語・フレームワークの採用</h3>
+                <p>アプリリニューアルに際してリファクタリング性能が高く、バグを生み出しづらく、よりリーダブルな言語を採用したかったためサーバーサイドKotlinを導入した。<br/>
+                    候補としてKotlin, Golang,
+                    PHP(社内のベース言語)などがあったがJavaの資産を活用できることやSpringなどフレームワークとしての機能が多いものを選べることなど様々な観点から社内のニーズに一番フィットしていると思い、サンプルプロジェクトをチームに共有して相談の上決定した。<br/>
+                    また、API GatewayとしてGraphQLを導入したことによりフロントエンドエンジニアの開発効率を向上させることができた。
+                </p>
+                <h3>社内エンジニアの技術力向上の取り組み</h3>
+                <p>技術のレガシー化が採用活動の停滞や無駄でバグの多いコードを生み出して続けていた環境を改善すべく、一人一人の技術力の向上のための活動を行なってきた。<br/>
+                    具体的には、勉強会に行って社内に技術発信したり、社内で技術に対する不安を抱えている人を相互に助け合うための技術共有会を毎週開催するなどの取り組みを行なった。
+                </p>
+                <h3>プルリクエストの取り組み</h3>
+                <p>承認・指摘botになるのではなく、可能な限りリファクタリング案を添えてコメントを残している。<br/>
+                    1Commit = 1PullRequestの元で直近のレビュー件数は半年で600件ほど。自分がレビュイーとなった件数は半年で約250件。</p>
+                <h3>育成</h3>
+                <p>新卒の育成に力を入れており、新卒のトレーナーとして1年間技術やメンタル面などのフォローを行なった。<br/>
+                    また、チームリーダーとしてはメンバーからの技術相談に対するアドバイスを継続的に行なっている。
+                </p>
+            </div>
         </section>
 
         <!-- Activity -->
-        <section id="activities" class="main special">
-            <header class="major">
+        <section id="activities" class="main">
+            <header class="major special">
                 <h2>業務外活動</h2>
-                <p>2019/08/24 KotlinFest 2019にてLT登壇</p>
-                <div>
-                    <script async class="speakerdeck-embed"
-                            data-id="8309f22fcc914616a5db8d2e239c33b0" data-ratio="1.33333333333333"
-                            src="//speakerdeck.com/assets/embed.js"></script>
-                </div>
             </header>
+            <div class="content">
+                <h3>KotlinFest 2019</h3>
+                <script async class="speakerdeck-embed"
+                        data-id="8309f22fcc914616a5db8d2e239c33b0" data-ratio="1.33333333333333"
+                        src="//speakerdeck.com/assets/embed.js"></script>
+            </div>
         </section>
 
     </div>
