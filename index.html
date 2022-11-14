@@ -4,9 +4,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="ja">
 <head>
-    <title>Ryo's Resume</title>
+    <title>R.H Resume</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
@@ -24,7 +24,6 @@
         <span class="logo"><img src="images/logo.svg" alt=""/></span>
         <h1>Ryo Hayasaka</h1>
         <p>Software Engineer<br/>
-            This site is my resume.
         </p>
     </header>
 
@@ -52,39 +51,210 @@
                 <h4>プロジェクト</h4>
                 <section>
                     <div class="table-wrapper">
-                        <table class="alt">
+                        <table class="alt tbl-font">
                             <thead>
                             <tr>
+                                <th style="width: 10%">期間</th>
                                 <th style="width: 20%">名称</th>
-                                <th style="width: 50%">内容</th>
-                                <th style="width: 20%">技術</th>
-                                <th style="width: 10%">規模</th>
+                                <th style="width: 35%">内容</th>
+                                <th style="width: 20%">担当技術</th>
+                                <th style="width: 15%">組織 / 役割</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>iOSアプリリニューアル(1年2ヶ月)</td>
-                                <td>iOSアプリvideomarketの大型リニューアルプロジェクトにおけるサーバーサイドのチームリーダーとして技術選定と設計・開発を担当。<br/><br/>
-                                    マイクロサービスアーキテクチャの導入とサーバーサイドKotlinの導入、API GatewayとしてGraphQLサーバーを構築。<br/><br/>
-                                    スケーラブルで耐障害性のあるシステムを作成するため、GAE上にサービスを構築。<br/><br/>
-                                    リーダーとしてはメンバーへの技術フォロー、プルリクエストを通じてリファクタリング案の提案、作業効率化のためのライブラリの選定などを行なっている。
+                                <td>
+                                    2022/10~2022/11<br>
+                                    (1ヶ月)
+                                </td>
+                                <td>Amazon決済接続システムリニューアル</td>
+                                <td>
+                                    FireTV版アプリリニューアルに伴い、Amazon決済接続システムを刷新。<br>
+                                    Amazonのリアルタイム通知による継続課金バッチ作成を担当。
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Kotlin(Server-Side)</li>
+                                        <li>SpringBoot</li>
+                                        <li>gRPC</li>
+                                        <li>GoogleKubernetesEngine</li>
+                                        <li>GoogleCloudFunctions</li>
+                                        <li>AmazonRTN</li>
+                                        <li>AmazonSNS</li>
+                                        <li>MySQL</li>
+                                        <li>CircleCI</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    1人<br><br>
+                                    テックリード
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2022/09~2022/10<br>
+                                    (1ヶ月)
+                                </td>
+                                <td>サイト運用システム構築</td>
+                                <td>
+                                    自社サービスリニューアル後のサイト運用のため、PRしたい動画コンテンツを設定できるCMSを作成。<br><br>
+
+                                    マイクロサービスにある登録APIを利用するためにフロントエンドからgRPCを呼び出すための仕組みを導入。(gRPC-Web)<br><br>
+                                    マテリアルデザインフレームワークのVuetifyを導入することでCMS作成にかかる稼働コストを減らし、2~3週間程度の開発期間で4つの機能を本番リリース。
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Vue</li>
+                                        <li>Vuetify</li>
+                                        <li>gRPC-Web</li>
+                                        <li>TypeScript</li>
+                                        <li>GoogleCloudRun</li>
+                                        <li>CircleCI</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    1人<br><br>
+                                    テックリード
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2022/07~2022/09<br>
+                                    (2ヶ月)
+                                </td>
+                                <td>携帯キャリア決済接続システムリニューアル</td>
+                                <td>
+                                    携帯主要3キャリア(docomo, au, SoftBank)の決済接続システムとクレジットカード決済接続システムの再設計と実装を担当。<br><br>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Kotlin(Server-Side)</li>
+                                        <li>SpringBoot</li>
+                                        <li>gRPC</li>
+                                        <li>GoogleKubernetesEngine</li>
+                                        <li>MySQL</li>
+                                        <li>CircleCI</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    1人<br><br>
+                                    テックリード
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2021/12~2022/09<br>
+                                    (10ヶ月)
+                                </td>
+                                <td>Webリニューアル</td>
+                                <td>
+                                    PCとスマートフォンでデザインが異なっていたサービスをレスポンシブデザインへと刷新し、バックエンドとフロントエンドをフルリニューアル。<br><br>
+                                    サービス開発のテックリードとして主に設計を中心に開発を担当し、海外のフロントエンドメンバーとの間のブリッジも担当。
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Kotlin(Server-Side)</li>
+                                        <li>SpringBoot</li>
+                                        <li>gRPC</li>
+                                        <li>GraphQL</li>
+                                        <li>GoogleKubernetesEngine</li>
+                                        <li>MySQL</li>
+                                        <li>CircleCI</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    チーム5人/<br>
+                                    全体15人<br><br>
+                                    テックリード
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2021/10~2021/11<br>
+                                    (1ヶ月)
+                                </td>
+                                <td>GooglePlay決済導入</td>
+                                <td>
+                                    Androidアプリのリニューアルに伴い、GooglePlay決済を導入し、アプリ内課金後のレシート検証システムと継続課金バッチの設計・開発を担当。<br><br>
+                                    Pub/SubメッセージングサービスとFaaSのCloudFunctionsを組み合わせたバッチを作成。
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Kotlin(Server-Side)</li>
+                                        <li>SpringBoot</li>
+                                        <li>gRPC</li>
+                                        <li>GoogleKubernetesEngine</li>
+                                        <li>GoogleCloudFunctions</li>
+                                        <li>GoogleCloudPub/Sub</li>
+                                        <li>GoogleCloudScheduler</li>
+                                        <li>MySQL</li>
+                                        <li>CircleCI</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    1人<br><br>
+                                    テックリード
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2021/01~2021/11<br>
+                                    (10ヶ月)
+                                </td>
+                                <td>Android/AndroidTVアプリリニューアル</td>
+                                <td>
+                                    Android/AndroidTV版videomarketアプリの大型リニューアルプロジェクトにおけるサーバーサイドのテックリードとして技術選定と設計・開発を担当。<br><br>
+                                    マイクロサービス間通信にgRPCを選定し、APIの再設計を行うことでバックエンドの高速化を図った。
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Kotlin(Server-Side)</li>
+                                        <li>SpringBoot</li>
+                                        <li>gRPC</li>
+                                        <li>GraphQL</li>
+                                        <li>GoogleKubernetesEngine</li>
+                                        <li>MySQL</li>
+                                        <li>CircleCI</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    チーム5人/<br>
+                                    全体15人<br><br>
+                                    テックリード
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2019/12~2020/12<br>
+                                    (1年)
+                                </td>
+                                <td>動画メタ情報のサービス共通取得システムの構築</td>
+                                <td>
+                                    各サービスで仕様が共通している動画のメタ情報を参照するためのシステムを構築し、技術選定と設計・開発を担当。<br><br>
+
+                                    サービスのリニューアルを控えていたため、より細かくスケーリングや負荷分散を設定できるGKEで環境を構築。
                                 </td>
                                 <td>
                                     <ul>
                                         <li>Kotlin(Server-Side)</li>
                                         <li>SpringBoot</li>
                                         <li>GraphQL</li>
-                                        <li>GoogleAppEngine</li>
-                                        <li>GoogleComputeEngine</li>
-                                        <li>GoogleStackdriver</li>
+                                        <li>GoogleKubernetesEngine</li>
                                         <li>CloudSQL(MySQL)</li>
-                                        <li>Elastic AppSearch</li>
+                                        <li>CircleCI</li>
                                     </ul>
                                 </td>
-                                <td>約20名</td>
+                                <td>
+                                    3人<br><br>
+                                    テックリード
+                                </td>
                             </tr>
                             <tr>
-                                <td>アプリ内検索エンジンのデータ投入バッチシステム(1ヶ月)</td>
+                                <td>
+                                    2019/05~2019/06<br>
+                                    (1ヶ月)
+                                </td>
+                                <td>アプリ内検索エンジンのデータ投入バッチシステム</td>
                                 <td>iOSアプリ内の作品検索のユーザー体験向上を目的とした検索エンジン(AppSearch)のデータ投入部分を担当。<br/><br/>
                                     RDBからデータを取り出し、データを非正規化し日次で投入する仕組みを構築。<br/><br/>
                                     情報設計とバッチ内部における並列処理、リトライなどの設計や実装まで一貫して開発。実装期間は2週間。
@@ -97,23 +267,49 @@
                                         <li>GoogleCloudScheduler</li>
                                         <li>CloudSQL(MySQL)</li>
                                         <li>Elastic AppSearch</li>
+                                        <li>CircleCI</li>
                                     </ul>
                                 </td>
-                                <td>1名</td>
+                                <td>
+                                    1人<br><br>
+                                    テックリード
+                                </td>
                             </tr>
                             <tr>
-                                <td>Apple UniversalSearchのフィード作成バッチシステム(6ヶ月)</td>
-                                <td>Appleが提供しているデバイスでSpotlight検索やSiri検索に販売中の作品情報を提供するためのフィード情報を作成するバッチを実装。<br/><br/>
+                                <td>
+                                    2018/07~2019/09<br>
+                                    (1年2ヶ月)
+                                </td>
+                                <td>iOSアプリリニューアル</td>
+                                <td>iOSアプリvideomarketの大型リニューアルプロジェクトにおけるサーバーサイドのチームリーダーとして技術選定と設計・開発を担当。<br/><br/>
+                                    マイクロサービスアーキテクチャの導入とサーバーサイドKotlinの導入、API GatewayとしてGraphQLサーバーを構築。<br/><br/>
+                                    スケーラブルで耐障害性のあるシステムを作成するため、GAE上にサービスを構築。<br/><br/>
+                                    リーダーとしてはメンバーへの技術フォロー、プルリクエストを通じてリファクタリング案の提案、作業効率化のためのライブラリの選定などを行なっている。
                                 </td>
                                 <td>
                                     <ul>
-                                        <li>Golang</li>
+                                        <li>Kotlin(Server-Side)</li>
+                                        <li>SpringBoot</li>
+                                        <li>GraphQL</li>
+                                        <li>GoogleAppEngine</li>
+                                        <li>GoogleComputeEngine</li>
+                                        <li>CloudSQL(MySQL)</li>
+                                        <li>Elastic AppSearch</li>
+                                        <li>CircleCI</li>
                                     </ul>
                                 </td>
-                                <td>1名</td>
+                                <td>
+                                    チーム7人/<br>
+                                    全体20人<br><br>
+                                    テックリード
+                                </td>
                             </tr>
                             <tr>
-                                <td>COCORO VIDEOのアプリリニューアル(2ヶ月)</td>
+                                <td>
+                                    2018/04~2018/06<br>
+                                    (2ヶ月)
+                                </td>
+                                <td>COCORO VIDEOのアプリリニューアル</td>
                                 <td>SHARP製TVに内蔵されているVODサービスCOCORO VIDEOアプリの大幅リニューアルプロジェクトにてサーバーサイド開発リーダーとして、設計とチームマネジメントを担当。<br/><br/>
                                 </td>
                                 <td>
@@ -122,10 +318,36 @@
                                         <li>Laravel</li>
                                     </ul>
                                 </td>
-                                <td>10名</td>
+                                <td>
+                                    チーム2人/<br>
+                                    全体10人<br><br>
+                                    チームリーダー
+                                </td>
                             </tr>
                             <tr>
-                                <td>商品販売促進・UX改善プロジェクト(3ヶ月)</td>
+                                <td>
+                                    2018/01~2018/06<br>
+                                    (6ヶ月)
+                                </td>
+                                <td>Apple UniversalSearchのフィード作成バッチシステム</td>
+                                <td>Appleが提供しているデバイスでSpotlight検索やSiri検索に販売中の作品情報を提供するためのフィード情報を作成するバッチを実装。<br/><br/>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>Golang</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    1人<br><br>
+                                    担当
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    2017/09~2017/12<br>
+                                    (6ヶ月)
+                                </td>
+                                <td>商品販売促進・UX改善プロジェクト</td>
                                 <td>同作品において吹替と字幕でそれぞれ別売りとして販売していた商品を、まとめて売ることで商品をより買いやすくするためのプロジェクトを遂行。<br/><br/>
                                 </td>
                                 <td>
@@ -134,7 +356,10 @@
                                         <li>Laravel</li>
                                     </ul>
                                 </td>
-                                <td>5名</td>
+                                <td>
+                                    5人<br><br>
+                                    担当
+                                </td>
                             </tr>
                             </tbody>
                         </table>
@@ -146,18 +371,23 @@
                 <h4>プロジェクト</h4>
                 <section>
                     <div class="table-wrapper">
-                        <table class="alt">
+                        <table class="alt tbl-font">
                             <thead>
                             <tr>
+                                <th style="width: 10%">期間</th>
                                 <th style="width: 20%">名称</th>
-                                <th style="width: 50%">内容</th>
-                                <th style="width: 20%">技術</th>
-                                <th style="width: 10%">規模</th>
+                                <th style="width: 35%">内容</th>
+                                <th style="width: 20%">担当技術</th>
+                                <th style="width: 15%">組織 / 役割</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>大手携帯通信企業の顧客管理システム(5ヶ月)</td>
+                                <td>
+                                    2017/01~2017/05<br>
+                                    (5ヶ月)
+                                </td>
+                                <td>大手携帯通信企業の顧客管理システム</td>
                                 <td>長年稼働している携帯通信企業の顧客管理システムのマルチデバイス対応プロジェクトの開発、テストを担当。
                                 </td>
                                 <td>
@@ -167,10 +397,17 @@
                                         <li>JUnit</li>
                                     </ul>
                                 </td>
-                                <td>約15名</td>
+                                <td>
+                                    約15人<br><br>
+                                    担当
+                                </td>
                             </tr>
                             <tr>
-                                <td>社内グループウェア開発(1ヶ月)</td>
+                                <td>
+                                    2016/11~2016/12<br>
+                                    (1ヶ月)
+                                </td>
+                                <td>社内グループウェア開発</td>
                                 <td>自社内で使用している日報機能などを備えたグループウェアに新規機能を追加する目的でOSSを利用してリニューアルを遂行。
                                 </td>
                                 <td>
@@ -181,10 +418,17 @@
                                         <li>AWS EC2</li>
                                     </ul>
                                 </td>
-                                <td>1名</td>
+                                <td>
+                                    1人<br><br>
+                                    担当
+                                </td>
                             </tr>
                             <tr>
-                                <td>OA機器契約サービス(4ヶ月)</td>
+                                <td>
+                                    2016/07~2016/11<br>
+                                    (4ヶ月)
+                                </td>
+                                <td>OA機器契約サービス</td>
                                 <td>OA機器を販売する事業者の販売員や販売担当組織の情報を定期的にデータ補正するバッチの作成と社内システムの構築。
                                 </td>
                                 <td>
@@ -199,10 +443,17 @@
                                         <li>Oracle 11g</li>
                                     </ul>
                                 </td>
-                                <td>20名</td>
+                                <td>
+                                    20人<br><br>
+                                    サブリーダー
+                                </td>
                             </tr>
                             <tr>
-                                <td>医療保険者等中間サーバシステム(2ヶ月)</td>
+                                <td>
+                                    2016/05~2016/07<br>
+                                    (2ヶ月)
+                                </td>
+                                <td>医療保険者等中間サーバシステム</td>
                                 <td>医療保険者(保険料徴収、保険給付を行う団体)が扱うユーザー情報の管理をするWebサービスの実装、単体テストを担当。
                                 </td>
                                 <td>
@@ -212,10 +463,17 @@
                                         <li>JUnit</li>
                                     </ul>
                                 </td>
-                                <td>10名</td>
+                                <td>
+                                    10人<br><br>
+                                    担当
+                                </td>
                             </tr>
                             <tr>
-                                <td>決済代行サービス(5ヶ月)</td>
+                                <td>
+                                    2016/01~2016/05<br>
+                                    (5ヶ月)
+                                </td>
+                                <td>決済代行サービス</td>
                                 <td>公共料金などの請求書に印字されているお客様情報や請求情報などを処理するバッチ開発を担当。
                                 </td>
                                 <td>
@@ -226,10 +484,17 @@
                                         <li>Oracle 11g</li>
                                     </ul>
                                 </td>
-                                <td>10名</td>
+                                <td>
+                                    10人<br><br>
+                                    担当
+                                </td>
                             </tr>
                             <tr>
-                                <td>レンタル・リセール商品検索システム(6ヶ月)</td>
+                                <td>
+                                    2015/06~2015/12<br>
+                                    (6ヶ月)
+                                </td>
+                                <td>レンタル・リセール商品検索システム</td>
                                 <td>PCやタブレットなどをレンタル、リセールするためのECサイトの実装とテストを担当。
                                 </td>
                                 <td>
@@ -243,7 +508,10 @@
                                         <li>jQuery</li>
                                     </ul>
                                 </td>
-                                <td>5名</td>
+                                <td>
+                                    5人<br><br>
+                                    担当
+                                </td>
                             </tr>
                             </tbody>
                         </table>
@@ -259,41 +527,36 @@
             </header>
             <ul class="features">
                 <li>
-                    <span class="icon"><img src="images/kotlin.svg" class="image size"/></span>
-                    <h3>Kotlin</h3>
-                    <p>About 1 year</p>
+                    <span class="icon"><img src="images/kotlin.svg" class="image size" alt=""/></span>
+                    <h3>Kotlin(Server-Side)</h3>
+                    <p>About 3 year</p>
                 </li>
                 <li>
-                    <span class="icon"><img src="images/golang.svg" class="image size"/></span>
+                    <span class="icon"><img src="images/golang.svg" class="image size" alt=""/></span>
                     <h3>Golang</h3>
                     <p>About 6 months</p>
                 </li>
                 <li>
-                    <span class="icon"><img src="images/php.svg" class="image size"/></span>
+                    <span class="icon"><img src="images/php.svg" class="image size" alt=""/></span>
                     <h3>PHP</h3>
                     <p>About 2 years</p>
                 </li>
                 <li>
-                    <span class="icon"><img src="images/java.svg" class="image size"/></span>
+                    <span class="icon"><img src="images/java.svg" class="image size" alt=""/></span>
                     <h3>Java</h3>
                     <p>About 3 years</p>
                 </li>
                 <li>
-                    <span class="icon"><img src="images/ruby.svg" class="image size"/></span>
+                    <span class="icon"><img src="images/ruby.svg" class="image size" alt=""/></span>
                     <h3>Ruby</h3>
                     <p>About 3 months</p>
                 </li>
                 <li>
-                    <span class="icon"><img src="images/graphql.svg" class="image size"/></span>
+                    <span class="icon"><img src="images/graphql.svg" class="image size" alt=""/></span>
                     <h3>GraphQL</h3>
-                    <p>About 1 year</p>
+                    <p>About 3 year</p>
                 </li>
             </ul>
-            <!--            <footer class="major">-->
-            <!--                <ul class="actions special">-->
-            <!--                    <li><a href="generic.html" class="button">Learn More</a></li>-->
-            <!--                </ul>-->
-            <!--            </footer>-->
         </section>
 
         <!-- PR -->
@@ -305,6 +568,9 @@
                 <h3>アーキテクチャの選定</h3>
                 <p>バグが多く障害が頻発していたモノリシックなサービスから、マイクロサービスアーキテクチャへの移行を行なった。<br/>
                     それぞれのサービスが明確な役割とドメインを持つようになり、GCPなどのマイクロサービスのためにデザインされているプラットフォームを使用することでそれぞれの負荷に合わせたスケールが可能になった。</p>
+                <h3>クラウドプラットフォームの積極的利用</h3>
+                <p>当時社内で実績がなかったGoogleクラウドプラットフォームサービスのAppEngineやKubernetesEngine、CloudFunctions、Pub/Subなどを利用し、多くのサービスをリリースした。<br>
+                    マイクロサービスの通信速度を上げるためにそれらの環境でgRPC通信を導入したりパフォーマンス改善なども行なっている。</p>
                 <h3>新言語・フレームワークの採用</h3>
                 <p>アプリリニューアルに際してリファクタリング性能が高く、バグを生み出しづらく、よりリーダブルな言語を採用したかったためサーバーサイドKotlinを導入した。<br/>
                     候補としてKotlin, Golang,
@@ -316,11 +582,11 @@
                     具体的には、勉強会に行って社内に技術発信したり、社内で技術に対する不安を抱えている人を相互に助け合うための技術共有会を毎週開催するなどの取り組みを行なった。
                 </p>
                 <h3>プルリクエストの取り組み</h3>
-                <p>承認・指摘botになるのではなく、可能な限りリファクタリング案を添えてコメントを残している。<br/>
+                <p>コードの品質向上のためにプルリクエスト・マージリクエストの際、ただ承認と指摘するだけではなく、可能な限りリファクタリング案を添えてコメントを残している。<br/>
                     1Commit = 1PullRequestの元で直近のレビュー件数は半年で600件ほど。自分がレビュイーとなった件数は半年で約250件。</p>
                 <h3>育成</h3>
                 <p>新卒の育成に力を入れており、新卒のトレーナーとして1年間技術やメンタル面などのフォローを行なった。<br/>
-                    また、チームリーダーとしてはメンバーからの技術相談に対するアドバイスを継続的に行なっている。
+                    また、テックリードとしては日々メンバーからの技術相談に対するアドバイスを継続的に行なっている。
                 </p>
             </div>
         </section>
@@ -331,6 +597,7 @@
                 <h2>業務外活動</h2>
             </header>
             <div class="content">
+                <h3><a href="https://creators.videomarket.co.jp/archive/author/rhysk"></a><span class="label">ブログ</span></h3>
                 <h3><a href="https://speakerdeck.com/ryohysk/graphqlsabawozuo-tutewei-watutatian-guo-todi-yu"><span class="label">KotlinFest 2019 LT</span></a></h3>
                 <h3><a href="https://github.com/ryohysk"><span class="label">GitHub</span></a></h3>
             </div>
@@ -347,8 +614,6 @@
                 <dd><a href="#">ryohysk@gmail.com</a></dd>
             </dl>
             <ul class="icons">
-                <li><a href="https://twitter.com/hayaboytech" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a>
-                </li>
                 <li><a href="https://github.com/ryohysk" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
             </ul>
         </section>
@@ -368,3 +633,8 @@
 
 </body>
 </html>
+<style>
+    .tbl-font{
+        font-size: 75%;
+    }
+</style>
